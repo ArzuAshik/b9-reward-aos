@@ -15,3 +15,12 @@
   font-weight: 500;
   font-style: normal;
 }
+
+body[data-aos-delay="3200"] [data-aos],
+[data-aos][data-aos][data-aos-delay="3200"] {
+  transition-delay: 3200ms;
+}
+body[data-aos-delay="3400"] [data-aos],
+[data-aos][data-aos][data-aos-delay="3400"] {
+  transition-delay: 3400ms;
+}

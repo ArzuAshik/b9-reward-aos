@@ -13,7 +13,11 @@ export default function ProjectItem({
   index,
 }) {
   return (
-    <div className="grid grid-cols-2  gap-8 bg-gradient-to-l to-slate-100 from-fuchsia-300 p-4 rounded-xl shadow-lg">
+    <div
+      data-aos={index % 2 === 0 ? "fade-left" : "fade-right"}
+      data-aos-duration="1500"
+      className="grid grid-cols-2  gap-8 bg-gradient-to-l to-slate-100 from-fuchsia-300 p-4 rounded-xl shadow-lg"
+    >
       <div className="max-h-[450px] overflow-hidden rounded-xl">
         <img
           className="w-full h-full object-cover object-top"

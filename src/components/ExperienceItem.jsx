@@ -1,8 +1,20 @@
 import React from "react";
 
-export default function ExperienceItem({ company, duration, title }) {
+export default function ExperienceItem({
+  company,
+  duration,
+  title,
+  index,
+  length,
+}) {
   return (
-    <div className="relative grid grid-cols-2 gap-16 p-8 text-white">
+    <div
+      data-aos="fade-up"
+      data-aos-duration={(length - index) * 400}
+      data-aos-delay={((length - index) * 300) - 300}
+      data-aos-anchor="#xp-anchor"
+      className="relative grid grid-cols-2 gap-16 p-8 text-white"
+    >
       <div className="flex items-center justify-end">
         <h3 className="font-satisfy">{duration}</h3>
       </div>

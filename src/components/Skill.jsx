@@ -4,8 +4,12 @@ import SkillItem from "./SkillItem";
 
 export default function Skill() {
   return (
-    <section className="py-5 bg-gradient-to-r to-slate-100 from-fuchsia-300 min-h-svh">
-      <h2 className="text-4xl text-center py-6 mb-8">
+    <section className="py-5 bg-gradient-to-r to-slate-100 from-fuchsia-300 min-h-svh relative">
+      <h2
+        className="text-4xl text-center py-6 mb-8"
+        data-aos="fade-down"
+        data-aos-duration="1000"
+      >
         <span className="border-b-4 border-fuchsia-400 inline-block px-4 py-2 font-satisfy cursor-pointer hover:px-8 duration-300">
           Skills
         </span>
@@ -37,6 +41,10 @@ export default function Skill() {
           ))}
         </div>
       </div>
+      <div
+        id="anchor"
+        className="size-4 bg-red-500 absolute right-0 bottom-1/4"
+      ></div>
     </section>
   );
 }

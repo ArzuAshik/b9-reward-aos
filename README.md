@@ -1,8 +1,16 @@
-# React + Vite
+## Starter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### [Code](https://github.com/ArzuAshik/b9-reward-aos): https://github.com/ArzuAshik/b9-reward-aos
 
-Currently, two official plugins are available:
+### [Live](https://aos-reward-starter.netlify.app): https://aos-reward-starter.netlify.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Final
+
+### [Code](https://github.com/ArzuAshik/b9-reward-aos/tree/final): https://github.com/ArzuAshik/b9-reward-aos/tree/final
+
+### [Live](https://aos-reward-final.netlify.app): https://aos-reward-final.netlify.app
+
+## Documentation Links
+
+1. https://michalsnik.github.io/aos
+1. https://github.com/michalsnik/aos
